@@ -1,0 +1,1 @@
+Realizar la integracion de una api externa en una aplicacion web utilizando Node.js y Express. La aplicacion debe ser capaz de realizar peticiones a la api externa y mostrar los resultados en la interfaz de usuario. La aplicacion debe ser segura y escalable.

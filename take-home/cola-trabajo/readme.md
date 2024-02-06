@@ -1,0 +1,1 @@
+Crear un sistema de cola de trabajos asíncronos utilizando tecnologías como Redis y Node.js. Puede ser utilizado para procesar tareas en segundo plano.

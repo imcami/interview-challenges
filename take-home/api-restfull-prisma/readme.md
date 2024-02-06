@@ -1,0 +1,1 @@
+Construir una API RESTful que interactúe con una base de datos. Incluir operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y gestión de errores.

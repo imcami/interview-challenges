@@ -1,0 +1,1 @@
+Desarrollar un sistema de autenticación y autorización seguro para una aplicación web usando Node.js y Express. Puede incluir la implementación de JWT para la autenticación.

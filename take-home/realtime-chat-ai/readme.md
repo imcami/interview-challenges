@@ -1,0 +1,1 @@
+Implementar un sistema de chat en tiempo real utilizando Node.js, Express, Socketio y IA. El sistema debe permitir a los usuarios enviar mensajes de texto y recibir respuestas automáticas de un bot de IA. El bot de IA debe ser capaz de responder a preguntas comunes y realizar tareas como la traducción de mensajes. El sistema debe ser seguro y escalable.

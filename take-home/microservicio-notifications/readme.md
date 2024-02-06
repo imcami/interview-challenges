@@ -1,0 +1,1 @@
+Construir un microservicio que maneje la entrega de notificaciones (por ejemplo, correo electrónico, SMS) a usuarios basado en ciertos eventos en la aplicación principal.
