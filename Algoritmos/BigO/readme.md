@@ -9,3 +9,6 @@ O(n) - Lineal
 O(n log n) - Logaritmica lineal
 O(n^2) - Cuadratica
 O(2^n) - Exponencial
+O(n!) - Factorial
+
+![grafico-ejemplo](image.png)
