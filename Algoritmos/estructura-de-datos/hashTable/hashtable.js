@@ -22,16 +22,19 @@ class HashTable {
     const index = this.hash(key);
     if (!this.buckets[index]) {
       this.buckets[index] = [];
-
-      this.buckets[index].push([key, value]);
     }
+    this.buckets[index].push([key, value]);
   }
 
-  // recuperar el valor asociado a una clave dada en el medoto hash
+  // recuperar el valor asociado a una clave dada en el metodo hash
   get(key) {
     const index = this.hash(key);
-    if (this.buckets[index][i][0] === key) {
-      return this.buckets[index][i][1];
+    if (!this.buckets[index]) return undefined; // Si no hay elementos en el bucket, retornar undefined
+    for (let i = 0; i < this.buckets[index].length; i++) {
+      if (this.buckets[index][i][0] === key) {
+        return this.buckets[index][i][1]; // Retornar el valor asociado a la clave
+      }
     }
+    return undefined; // Retornar undefined si la clave no se encuentra en el bucket
   }
 }
